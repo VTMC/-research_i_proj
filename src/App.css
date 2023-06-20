@@ -1,0 +1,222 @@
+/*메인페이지 메인섹션*/
+
+#navigation_bar b, #navigation_bar p{
+  /*height: 100%;*/
+
+  margin: 1em 0;
+
+  color: white;
+  text-decoration: none;
+}
+
+#clock{
+  font-size:large;
+  font-weight:bold;
+}
+
+#leftNav p{
+  text-decoration: none;
+}
+
+#mainSection{
+  display:inline-flex;
+}
+
+#leftNav{
+  margin: 10px;
+  position: fixed;
+
+  z-index: 6;
+
+  /*opacity: 0;*/
+  transition: 0.3s;
+  
+  right: 10px;
+}
+
+#onTopButton{
+  position:fixed;
+
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+
+  border: 1px black dotted;
+  border-radius: 15px;
+
+  z-index: 6;
+
+  transition: 0.3s;
+}
+
+#onTopButton:hover{
+  color: white;
+  background: skyblue;
+  border: 1px grey solid;
+}
+
+#onTopButton:active{
+  background:blue;
+  border: 1px white solid;
+}
+
+#selectButton{
+  margin: 1em;
+  text-align: center;
+}
+
+#selectButton button{
+  background:white;
+  border: 0px;
+  border-radius:10px;
+  padding: 0.5em;
+}
+
+#selectButton button:hover{
+  background:grey;
+}
+
+#selectButton img{
+  width:3em;
+  height:3em;
+}
+
+#mainContents{
+  position:relative;
+
+  z-index: 4;
+
+  justify-content: right;
+  align-items: start;
+}
+
+/*modal 관련 CSS*/
+
+/*블로그 포스팅 관련 내용*/
+#blogContents h4{
+  font-weight: bolder;
+  margin: 10px;
+}
+
+#blogContents p{
+  margin: 10px;
+}
+
+#middle_hr{
+  color:skyblue;
+  height: 2px;
+}
+
+#time_p{
+  text-align:right;
+  margin: 0 10px;
+}
+
+#bottom_hr{
+  color:black;
+  height: 5px;
+}
+
+/*입력 관련*/
+#inputDiv div{
+  margin: 1em 0;
+}
+
+#setInputTitle{
+  text-align: center;
+}
+
+#setInputTitle label{
+  font-size: 3em;
+  font-weight:bolder;
+}
+
+#setInputTitle input{
+  width: 2em;
+  height: 2em;
+
+  margin: 0 1em;
+}
+
+#setInputTitle p{
+  font-size: 1.5em;
+  font-weight:bolder;
+}
+
+#inputDiv form{
+  display:flex;
+  flex-flow:column;
+
+  text-align: center;
+}
+
+#inputDiv_contents{
+  justify-content: center;
+  align-items: center;
+}
+
+#inputDiv_contents textarea{
+  width: 90%;
+}
+
+#inputDiv_title{
+  display:flex;
+  flex-flow:row;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding:10px 0;
+}
+
+#inputDiv_title p{
+  margin: 0 1em;
+}
+
+#inputDiv_title input{
+  width:80%;
+}
+
+#inputDiv_submit input{
+  width: 80%;
+}
+
+/*잘못된 입력 및 접근*/
+#wrongInput{
+  text-align: center;
+}
+
+#wrongInput h1, #wrongInput p{
+  text-align: center;
+
+  font-weight: bolder;
+  color: red;
+}
+
+#wrongInput img{
+  width: 10em;
+  height: 10em;
+
+  margin: 1.5em;
+}
+
+/*제대로 진행했을 경우*/
+#correctProcess h1, #correctProcess p{
+  text-align: center;
+
+  font-weight: bolder;
+  color: green;
+}
+
+#correctProcess{
+  text-align: center;
+}
+
+#correctProcess img{
+  width: 10em;
+  height: 10em;
+
+  margin: 1.5em;
+}

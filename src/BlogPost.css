@@ -1,0 +1,57 @@
+#blogContents p{
+    font-weight:bold;
+}
+
+#Modal.Body p{
+    font-weight: bold;
+}
+
+#blogContents img{
+    text-align: center;
+
+    width:10em;
+    height: 10em;
+}
+
+#tableInfo p{
+    width:100%;
+    margin: 0;
+    padding: 0;
+  
+    font-size:smaller;
+    color: grey;
+  
+    text-align: right;
+  }
+  
+  #modalImage{
+    text-align:center;
+  }
+  
+  #tableInfo hr{
+    margin:0;
+    padding: 0;
+  }
+  
+  #modalFooter p{
+    font-size: xx-small;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  #modalFooter input {
+    width: 8em;
+    margin: 0 1em;
+  }
+
+  #blogContents{
+    display:none;
+  }
+
+  .cards{
+    display:inline-flex;
+    padding: 20em;
+    height: 20%;
+    align-items:stretch;
+  }

@@ -1,0 +1,64 @@
+#editDiv div{
+    margin: 1em 0;
+  }
+  
+  #setEditTable{
+    text-align: center;
+  }
+  
+  #setEditTable label{
+    font-size: 3em;
+    font-weight:bolder;
+  }
+  
+  #setEditTable input{
+    width: 2em;
+    height: 2em;
+  
+    margin: 0 1em;
+  }
+  
+  #setEditTable p{
+    font-size: 1.5em;
+    font-weight:bolder;
+  }
+  
+  #editDiv form{
+    display:flex;
+    flex-flow:column;
+  
+    text-align: center;
+  }
+  
+  #EditDiv_contents{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #EditDiv_contents textarea{
+    width: 90%;
+  }
+  
+  #EditDiv_title{
+    display:flex;
+    flex-flow:row;
+  
+    align-items: center;
+    justify-content: center;
+  
+    text-align: center;
+  
+    padding:10px 0;
+  }
+  
+  #EditDiv_title p{
+    margin: 0 1em;
+  }
+  
+  #EditDiv_title input{
+    width:80%;
+  }
+  
+  #EditDiv_submit input{
+    width: 80%;
+  }

@@ -1,0 +1,77 @@
+/*메인페이지 메인섹션*/
+
+#mainSection{
+  display:inline-flex;
+}
+
+#leftNav{
+  margin: 10px;
+  position: fixed;
+
+  z-index: 6;
+
+  opacity: 0;
+  transition: 0.3s;
+  
+  right: 10px;
+}
+
+#onTopButton{
+  position:fixed;
+
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+
+  border: 1px black dotted;
+  border-radius: 15px;
+
+  z-index: 6;
+
+  transition: 0.3s;
+}
+
+#onTopButton:hover{
+  color: white;
+  background: skyblue;
+  border: 1px grey solid;
+}
+
+#onTopButton:active{
+  background:blue;
+  border: 1px white solid;
+}
+
+#mainContents{
+  position:relative;
+
+  z-index: 4;
+
+  justify-content: right;
+  align-items: start;
+}
+
+/*블로그 포스팅 관련 내용*/
+#blogContents h4{
+  font-weight: bolder;
+  margin: 10px;
+}
+
+#blogContents p{
+  margin: 10px;
+}
+
+#middle_hr{
+  color:skyblue;
+  height: 2px;
+}
+
+#time_p{
+  text-align:right;
+  margin: 0 10px;
+}
+
+#bottom_hr{
+  color:black;
+  height: 5px;
+}
